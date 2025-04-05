@@ -1,0 +1,44 @@
+body {
+  font-family: Arial;
+  background: #f0f4ff;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 180px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+}
+
+button {
+  padding: 6px 12px;
+  margin-top: 8px;
+}
+
+.cart {
+  margin-top: 30px;
+}
+
+.error {
+  color: red;
+}
